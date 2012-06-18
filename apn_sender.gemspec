@@ -58,15 +58,18 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<resque>, [">= 0"])
       s.add_runtime_dependency(%q<resque-access_worker_from_job>, [">= 0"])
       s.add_runtime_dependency(%q<activesupport>, [">= 0"])
+      s.add_runtime_dependency(%q<daemons>, [">= 0"])
     else
       s.add_dependency(%q<resque>, [">= 0"])
       s.add_dependency(%q<resque-access_worker_from_job>, [">= 0"])
       s.add_dependency(%q<activesupport>, [">= 0"])
+      s.add_dependency(%q<daemons>, [">= 0"])
     end
   else
     s.add_dependency(%q<resque>, [">= 0"])
     s.add_dependency(%q<resque-access_worker_from_job>, [">= 0"])
     s.add_dependency(%q<activesupport>, [">= 0"])
+    s.add_dependency(%q<daemons>, [">= 0"])
   end
 end
 
