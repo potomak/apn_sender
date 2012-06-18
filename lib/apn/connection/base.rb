@@ -1,6 +1,7 @@
 require 'socket'
 require 'openssl'
 require 'resque'
+require 'logger'
 
 module APN
   module Connection
